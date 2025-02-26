@@ -3,36 +3,26 @@ let isCitizen = true;
 let isRegistered = true;
 
 
-// if (userAge >= 18){
-//     if (isCitizen){
-//         if (isRegistered){
-//             console.log("You are eligible to vote.");
-//         }
-//         else{
-//                 console.log("You are not eligible due to registration status.");
-//         }
-//     }
-//     else{
-//             console.log("You are not eligible due to citizenship status.");
-//         }
-// else{
-//         console.log("You are not eligible to vote.");
-//     }
-// }
-
-
-
-
-if (userAge >= 18) {
-  if (isCitizen) {
-    if (isRegistered) {
-      console.log("You are eligible to vote");
-    } else {
-      console.log("You are not eligible due to registration status");
+if (userAge >= 18){
+    if (isCitizen){
+        if (isRegistered){
+            console.log("You are eligible to vote.");
+        }
+             else{
+                console.log("You are not eligible due to registration status.");
+        }
     }
-  } else {
-    console.log("you are not eligible due to citizenship status");
-  }
-} else {
-  console.log("You are not eligible to vote (Younger)");
-}
+        else{
+            console.log("You are not eligible due to citizenship status.");
+        }
+    
+    }
+    else{
+        console.log("You are not eligible to vote.");
+    }
+
+
+
+
+
+
