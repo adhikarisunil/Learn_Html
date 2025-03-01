@@ -53,3 +53,32 @@
 //     default:
 //         console.log("No match found.");
 //  }
+
+// var num = 1;
+
+// for(num = 1; num <= 10; num ++)
+//     console.log("5 " + num + "= " + 5 * num);
+
+
+
+// var userInput;
+// var positiveNumber;
+
+// do{
+//     userInput = prompt("Enter any positive number:");
+//     positiveNumber = parseFloat(userInput);
+
+// }while(isNaN (positiveNumber)|| positiveNumber<0);
+// console.log("You entered a valid positive number:", positiveNumber);
+
+
+
+
+
+let userInput;
+let positiveNumber;
+do {
+  userInput = prompt("enter any positive number");
+  positiveNumber = parseFloat(userInput);
+} while (isNaN(positiveNumber) || positiveNumber < 0);
+console.log("You entered a valid positive number:", positiveNumber);
