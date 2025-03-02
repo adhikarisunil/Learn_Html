@@ -85,8 +85,46 @@
 
 
 
-var sum = 0;
-for (var num = 1; num <=10 ; num++){
-  var sum = sum + num;
+// var sum = 0;
+// for (var num = 1; num <=10 ; num++){
+//   var sum = sum + num;
+// }
+// console.log(sum);
+
+
+
+// var num = 12;
+// var isPrime = false;
+
+// for(var i =2; i < num; i++){
+//   if(num % i === 0){
+//     isPrime = true;
+//     break;
+//   }
+
+// }
+
+// if(isPrime){
+//   console.log("Num is prime.");
+// }
+// else{
+//   console.log("Num is prime.");
+// }
+
+
+// var year = 2002;
+
+// if((year % 4 == 0 && year % 100 != 0) || year % 400 == 0){
+//   console.log("It is a leap year.")
+// }
+// else{
+//   console.log("It is not a leap year.")
+// }
+
+
+for(var i =1; i<= 5; i++){
+  for(var j = 1; j<= i; j++){
+    console.log("*");
+  }
+
 }
-console.log(sum);
